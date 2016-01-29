@@ -1,4 +1,4 @@
-package customer;
+package turk.customer;
 
 public class CustomerApp {
 
