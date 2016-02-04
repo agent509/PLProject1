@@ -17,10 +17,15 @@ public class CustomerApp {
 
     Customer customer = getCustomer(custNum);
 
-    print
+    if(customer.name == "error"){
+      System.out.println("There is no customer " + custNum " in our records.");
+    }
 
+    System.out.println(getNameAndAddress(customer + "\n");
 
-    System.out.println(custNum);
+    Scanner input2 = new Scanner(System.in);
+    System.out.println("Disaplay Another Customer? (y/n): ");
+    response = input.nextchar();
 
     }
   }
