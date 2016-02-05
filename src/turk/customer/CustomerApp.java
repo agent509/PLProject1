@@ -1,6 +1,5 @@
 package turk.customer;
 
-
 import java.util.Scanner;
 
 public class CustomerApp {
