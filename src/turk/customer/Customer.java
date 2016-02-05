@@ -21,7 +21,7 @@ public class Customer {
   public String getPost(){return postCode;}
 
   public String getNameAndAddress(){
-    return name + "\n" + address + "\n" + city + ", " + " " + postCode;
+    return name + "\n" + address + "\n" + city + ", " + state + " " + postCode;
   }
 
 }

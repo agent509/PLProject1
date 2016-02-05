@@ -2,7 +2,7 @@ package turk.customer;
 
 public class CustomerDB {
 
-    public static void getCustomer(int customerNumber){
+    public static Customer getCustomer(int customerNumber){
         Customer c1 = new Customer();
         Customer c2 = new Customer();
         Customer c3 = new Customer();
@@ -20,7 +20,7 @@ public class CustomerDB {
             c2.setState("MN");
             c2.setPost("55435");
             return c2;
-        }else if (customerNumber == 1002) {
+        }else if (customerNumber == 1003) {
             c3.setName("Ronda Chavan");
             c3.setAddress("518 Commanche Dr.");
             c3.setCity("Greensboro");
